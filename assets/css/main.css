@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "ABeeZee", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 800;
+}
+
+/* Page transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
