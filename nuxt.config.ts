@@ -16,9 +16,14 @@ export default defineNuxtConfig({
     },
   },
 
+  site: {
+    url: "https://jojobee.nl/",
+    trailingSlash: true,
+  },
+
   buildModules: ["@nuxtjs/tailwindcss"],
 
   css: ["~/assets/css/main.css"],
   compatibilityDate: "2024-09-29",
-  modules: ["@nuxt/image", "@nuxt/fonts"],
+  modules: ["@nuxt/image", "@nuxt/fonts", "@nuxtjs/seo"],
 });

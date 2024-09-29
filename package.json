@@ -12,6 +12,8 @@
   "dependencies": {
     "@nuxt/fonts": "^0.9.2",
     "@nuxt/image": "^1.8.0",
+    "@nuxtjs/seo": "2.0.0-rc.23",
+    "contentful": "^11.0.3",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"

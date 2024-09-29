@@ -25,7 +25,7 @@
                         </ul>
                     </div>
                     <div>
-                        <enhanced:img
+                        <img
                             src="/assets/Emilio-contact.jpg"
                             alt="Contact opnemen"
                             class="h-auto w-[150px] rounded-[100%] object-cover shadow-2xl max-[768px]:pt-4"
