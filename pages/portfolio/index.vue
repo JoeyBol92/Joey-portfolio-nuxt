@@ -90,7 +90,7 @@
   
   // Set up page metadata
   useHead({
-    title: 'Portfolio - JojoBee &copy;',
+    title: 'Portfolio - JojoBee ©',
     meta: [
       {
         name: 'description',
