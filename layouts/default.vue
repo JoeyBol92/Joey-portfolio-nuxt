@@ -2,6 +2,6 @@
     <div class="antialiased scroll-smooth">
         <Header />
         <slot />
-        <Footer />>
+        <Footer />
     </div>
 </template>

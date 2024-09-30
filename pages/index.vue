@@ -14,7 +14,7 @@
 				</p>
 				<div class="item-center pb-8">
 					<div>
-						<NuxtLink href="/test/" aria-label="Link naar portfolio">
+						<NuxtLink href="/portfolio/" aria-label="Link naar portfolio">
 							<button
 								class="mt-4 flex items-center justify-between rounded-lg bg-[#00A9FF] px-8 py-3 font-normal text-white transition hover:-translate-y-1 hover:opacity-70"
 								aria-label="My work"
@@ -309,3 +309,21 @@
 </section>
 </div>
 </template>
+
+<script setup>
+import { useHead } from 'nuxt/app';
+
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Set up page metadata
+  useHead({
+	title: `JojoBee: websites op maat © ${currentYear}`,
+    meta: [
+      {
+        name: 'description',
+        content: "Ik maak website op maat voor jou en supersnel",
+      },
+    ],
+  });
+</script>

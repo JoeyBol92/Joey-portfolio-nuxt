@@ -148,7 +148,7 @@
   <div class="container mx-auto mb-12 max-w-7xl px-6 sm:px-8">
     <div class="px-[25px]">
       <div class="flex justify-center gap-4 md:flex-row">
-        <a :href="data.fields.websiteKlant" target="_blank" rel="nofollow">
+        <NuxtLink :href="data.fields.websiteKlant" target="_blank" rel="nofollow">
           <button
             class="ring-offset-background focus-visible:ring-ring inline-flex h-10 items-center justify-center whitespace-nowrap rounded-md bg-[#00A9FF] px-4 py-2 text-sm font-medium text-white transition hover:-translate-y-1 hover:opacity-70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none"
             ><svg
@@ -166,7 +166,7 @@
               ></path><path d="M2 12h20"></path></svg
             ><span class="ml-2">Bekijk {{data.fields.websiteKlant}}</span></button
           >
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>

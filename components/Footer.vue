@@ -3,7 +3,7 @@
         <div class="container mx-auto max-w-7xl px-6 sm:px-8">
             <div class="grid grid-cols-1 justify-end bg-white py-10 md:grid-cols-3">
                 <div class=" left-0 top-0 col-span-2 w-[180px] bg-white">
-                    <a href="/">
+                    <NuxtLink href="/">
                         <img
                             src="/assets/img/logo-jojobee.svg"
                             alt="logo"
@@ -11,7 +11,7 @@
                             width="148"
                             height="36"
                         />
-                    </a>
+                    </NuxtLink>
                     <ul class="space-y-1 px-4">
                         <li>Joey Bol</li>
                         <li>&copy; {{new Date().getFullYear()}}</li>

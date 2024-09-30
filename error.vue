@@ -18,7 +18,7 @@ const handleError = () => {
             </div>
             <div class="item-center mx-auto max-w-[500px] px-[25px] py-8 pb-8 md:gap-4">
                 <div class="flex justify-center">
-                    <a href="/" aria-label="button link to homepage">
+                    <NuxtLink href="/" aria-label="button link to homepage">
                         <button
                             class="x mt-4 flex items-center justify-between rounded-lg bg-[#00A9FF] py-3 pl-8 pr-4 font-normal text-white transition hover:-translate-y-1 hover:bg-[#0088CC]"
                             aria-label="My work"
@@ -38,7 +38,7 @@ const handleError = () => {
                                 data-id="66"><path d="m9 18 6-6-6-6"></path></svg
                             >
                         </button>
-                    </a>
+                    </NuxtLink>
                 </div>
             </div>
         </section>
