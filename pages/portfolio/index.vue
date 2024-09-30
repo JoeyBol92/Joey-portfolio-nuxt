@@ -7,8 +7,6 @@
 
     <section class="container mx-auto mb-12 max-w-7xl pt-20 sm:px-8 md:px-6 md:pt-32">
       <div class="grid gap-8 px-[25px] md:grid-cols-3">
-        <!-- Debugging: Render JSON data for inspection -->
-        <!-- <pre>{{ JSON.stringify(data, null, 2) }}</pre> -->
   
         <!-- Loop through portfolio items and render them -->
         <div v-for="portfolio in data" :key="portfolio.sys.id">
