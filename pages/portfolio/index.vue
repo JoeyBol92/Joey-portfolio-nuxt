@@ -1,5 +1,11 @@
 <template>
     <section class="container mx-auto mb-12 max-w-7xl pt-20 sm:px-8 md:px-6 md:pt-32">
+        <div class="px-[25px]">
+            <h1 class="mb-4 text-center text-3xl md:text-5xl">Portfolio</h1>
+        </div>
+    </section>
+
+    <section class="container mx-auto mb-12 max-w-7xl pt-20 sm:px-8 md:px-6 md:pt-32">
       <div class="grid gap-8 px-[25px] md:grid-cols-3">
         <!-- Debugging: Render JSON data for inspection -->
         <!-- <pre>{{ JSON.stringify(data, null, 2) }}</pre> -->
@@ -35,7 +41,6 @@
               >
                 <button
                   class="mt-auto inline-flex h-10 w-full items-center justify-center whitespace-nowrap rounded-md bg-[#00A9FF] px-4 py-2 text-sm font-medium text-white transition hover:-translate-y-1 hover:opacity-70"
-                  
                   >
                   Bekijk details {{ portfolio.fields.title_portfolio }}
                   <svg
